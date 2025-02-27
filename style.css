@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #444;
+    padding: 15px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#main-title h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+}
+
+
+#event-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.event-images img {
+    width: 200px;
+    margin: 10px;
+}
+
+.box {
+    background: #333;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.register-container {
+    margin: 20px;
+}
+
+#register-btn {
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#registration-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    background: #90251b;
+    color: rgb(28, 13, 14);
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+footer {
+    background: #444;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+p{
+    text-align:left ;
+}
+#registration-form label{
+display: flex;
+flex-direction: column;
+}
+
+#registration-popup img{
+    display: block;
+    margin: auto;
+}
